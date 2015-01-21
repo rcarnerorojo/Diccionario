@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6D784D31A6FB2DC007BEF0D /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D784D21A6FB2DC007BEF0D /* iPhone.storyboard */; };
+		E6E2E3751A6E64D400B851B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2E3741A6E64D400B851B6 /* main.m */; };
+		E6E2E3781A6E64D400B851B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2E3771A6E64D400B851B6 /* AppDelegate.m */; };
+		E6E2E3801A6E64D400B851B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2E37F1A6E64D400B851B6 /* Images.xcassets */; };
+		E6E2E3831A6E64D400B851B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E2E3811A6E64D400B851B6 /* LaunchScreen.xib */; };
+		E6E2E38F1A6E64D400B851B6 /* DiccionarioiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2E38E1A6E64D400B851B6 /* DiccionarioiPadTests.m */; };
+		E6E2E3991A6E653500B851B6 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2E3981A6E653500B851B6 /* iPad.storyboard */; };
+		E6E2E3A31A6E70F600B851B6 /* RCRDefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2E3A21A6E70F600B851B6 /* RCRDefinitionViewController.m */; };
+		E6E2E3A61A6E710A00B851B6 /* RCRDiccionarioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2E3A51A6E710A00B851B6 /* RCRDiccionarioTableViewController.m */; };
+		E6E2E3A81A6E713F00B851B6 /* Vocabwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = E6E2E3A71A6E713F00B851B6 /* Vocabwords.txt */; };
+		E6E2E3AB1A6E71EC00B851B6 /* RCRWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2E3AA1A6E71EC00B851B6 /* RCRWordsModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6E2E3891A6E64D400B851B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E2E3671A6E64D400B851B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E2E36E1A6E64D400B851B6;
+			remoteInfo = DiccionarioiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6D784D21A6FB2DC007BEF0D /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		E6E2E36F1A6E64D400B851B6 /* DiccionarioiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiccionarioiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2E3731A6E64D400B851B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E2E3741A6E64D400B851B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6E2E3761A6E64D400B851B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6E2E3771A6E64D400B851B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6E2E37F1A6E64D400B851B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6E2E3821A6E64D400B851B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E6E2E3881A6E64D400B851B6 /* DiccionarioiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiccionarioiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E2E38D1A6E64D400B851B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E2E38E1A6E64D400B851B6 /* DiccionarioiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiccionarioiPadTests.m; sourceTree = "<group>"; };
+		E6E2E3981A6E653500B851B6 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		E6E2E3A11A6E70F600B851B6 /* RCRDefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRDefinitionViewController.h; sourceTree = "<group>"; };
+		E6E2E3A21A6E70F600B851B6 /* RCRDefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRDefinitionViewController.m; sourceTree = "<group>"; };
+		E6E2E3A41A6E710A00B851B6 /* RCRDiccionarioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRDiccionarioTableViewController.h; sourceTree = "<group>"; };
+		E6E2E3A51A6E710A00B851B6 /* RCRDiccionarioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRDiccionarioTableViewController.m; sourceTree = "<group>"; };
+		E6E2E3A71A6E713F00B851B6 /* Vocabwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vocabwords.txt; sourceTree = "<group>"; };
+		E6E2E3A91A6E71EC00B851B6 /* RCRWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRWordsModel.h; sourceTree = "<group>"; };
+		E6E2E3AA1A6E71EC00B851B6 /* RCRWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRWordsModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E2E36C1A6E64D400B851B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2E3851A6E64D400B851B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E2E3661A6E64D400B851B6 = {
+			isa = PBXGroup;
+			children = (
+				E6E2E3711A6E64D400B851B6 /* DiccionarioiPad */,
+				E6E2E38B1A6E64D400B851B6 /* DiccionarioiPadTests */,
+				E6E2E3701A6E64D400B851B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E2E3701A6E64D400B851B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E36F1A6E64D400B851B6 /* DiccionarioiPad.app */,
+				E6E2E3881A6E64D400B851B6 /* DiccionarioiPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E2E3711A6E64D400B851B6 /* DiccionarioiPad */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E3761A6E64D400B851B6 /* AppDelegate.h */,
+				E6E2E3771A6E64D400B851B6 /* AppDelegate.m */,
+				E6E2E37F1A6E64D400B851B6 /* Images.xcassets */,
+				E6E2E3811A6E64D400B851B6 /* LaunchScreen.xib */,
+				E6E2E3721A6E64D400B851B6 /* Supporting Files */,
+				E6E2E3981A6E653500B851B6 /* iPad.storyboard */,
+				E6D784D21A6FB2DC007BEF0D /* iPhone.storyboard */,
+				E6E2E39D1A6E709D00B851B6 /* Controllers */,
+				E6E2E3AC1A6E71F300B851B6 /* Models */,
+			);
+			path = DiccionarioiPad;
+			sourceTree = "<group>";
+		};
+		E6E2E3721A6E64D400B851B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E3731A6E64D400B851B6 /* Info.plist */,
+				E6E2E3741A6E64D400B851B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6E2E38B1A6E64D400B851B6 /* DiccionarioiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E38E1A6E64D400B851B6 /* DiccionarioiPadTests.m */,
+				E6E2E38C1A6E64D400B851B6 /* Supporting Files */,
+			);
+			path = DiccionarioiPadTests;
+			sourceTree = "<group>";
+		};
+		E6E2E38C1A6E64D400B851B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E38D1A6E64D400B851B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6E2E39D1A6E709D00B851B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E3A41A6E710A00B851B6 /* RCRDiccionarioTableViewController.h */,
+				E6E2E3A51A6E710A00B851B6 /* RCRDiccionarioTableViewController.m */,
+				E6E2E3A11A6E70F600B851B6 /* RCRDefinitionViewController.h */,
+				E6E2E3A21A6E70F600B851B6 /* RCRDefinitionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E6E2E3AC1A6E71F300B851B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6E2E3A91A6E71EC00B851B6 /* RCRWordsModel.h */,
+				E6E2E3AA1A6E71EC00B851B6 /* RCRWordsModel.m */,
+				E6E2E3A71A6E713F00B851B6 /* Vocabwords.txt */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E2E36E1A6E64D400B851B6 /* DiccionarioiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2E3921A6E64D400B851B6 /* Build configuration list for PBXNativeTarget "DiccionarioiPad" */;
+			buildPhases = (
+				E6E2E36B1A6E64D400B851B6 /* Sources */,
+				E6E2E36C1A6E64D400B851B6 /* Frameworks */,
+				E6E2E36D1A6E64D400B851B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiccionarioiPad;
+			productName = DiccionarioiPad;
+			productReference = E6E2E36F1A6E64D400B851B6 /* DiccionarioiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6E2E3871A6E64D400B851B6 /* DiccionarioiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E2E3951A6E64D400B851B6 /* Build configuration list for PBXNativeTarget "DiccionarioiPadTests" */;
+			buildPhases = (
+				E6E2E3841A6E64D400B851B6 /* Sources */,
+				E6E2E3851A6E64D400B851B6 /* Frameworks */,
+				E6E2E3861A6E64D400B851B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E2E38A1A6E64D400B851B6 /* PBXTargetDependency */,
+			);
+			name = DiccionarioiPadTests;
+			productName = DiccionarioiPadTests;
+			productReference = E6E2E3881A6E64D400B851B6 /* DiccionarioiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E2E3671A6E64D400B851B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RCR;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ramón Carnero Rojo";
+				TargetAttributes = {
+					E6E2E36E1A6E64D400B851B6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E6E2E3871A6E64D400B851B6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E6E2E36E1A6E64D400B851B6;
+					};
+				};
+			};
+			buildConfigurationList = E6E2E36A1A6E64D400B851B6 /* Build configuration list for PBXProject "DiccionarioiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E2E3661A6E64D400B851B6;
+			productRefGroup = E6E2E3701A6E64D400B851B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E2E36E1A6E64D400B851B6 /* DiccionarioiPad */,
+				E6E2E3871A6E64D400B851B6 /* DiccionarioiPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E2E36D1A6E64D400B851B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2E3991A6E653500B851B6 /* iPad.storyboard in Resources */,
+				E6D784D31A6FB2DC007BEF0D /* iPhone.storyboard in Resources */,
+				E6E2E3831A6E64D400B851B6 /* LaunchScreen.xib in Resources */,
+				E6E2E3A81A6E713F00B851B6 /* Vocabwords.txt in Resources */,
+				E6E2E3801A6E64D400B851B6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2E3861A6E64D400B851B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E2E36B1A6E64D400B851B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2E3A61A6E710A00B851B6 /* RCRDiccionarioTableViewController.m in Sources */,
+				E6E2E3781A6E64D400B851B6 /* AppDelegate.m in Sources */,
+				E6E2E3751A6E64D400B851B6 /* main.m in Sources */,
+				E6E2E3A31A6E70F600B851B6 /* RCRDefinitionViewController.m in Sources */,
+				E6E2E3AB1A6E71EC00B851B6 /* RCRWordsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2E3841A6E64D400B851B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E2E38F1A6E64D400B851B6 /* DiccionarioiPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E2E38A1A6E64D400B851B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E2E36E1A6E64D400B851B6 /* DiccionarioiPad */;
+			targetProxy = E6E2E3891A6E64D400B851B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6E2E3811A6E64D400B851B6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E2E3821A6E64D400B851B6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E2E3901A6E64D400B851B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E6E2E3911A6E64D400B851B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E2E3931A6E64D400B851B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiccionarioiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E2E3941A6E64D400B851B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiccionarioiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6E2E3961A6E64D400B851B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiccionarioiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiccionarioiPad.app/DiccionarioiPad";
+			};
+			name = Debug;
+		};
+		E6E2E3971A6E64D400B851B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DiccionarioiPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiccionarioiPad.app/DiccionarioiPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E2E36A1A6E64D400B851B6 /* Build configuration list for PBXProject "DiccionarioiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2E3901A6E64D400B851B6 /* Debug */,
+				E6E2E3911A6E64D400B851B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2E3921A6E64D400B851B6 /* Build configuration list for PBXNativeTarget "DiccionarioiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2E3931A6E64D400B851B6 /* Debug */,
+				E6E2E3941A6E64D400B851B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E2E3951A6E64D400B851B6 /* Build configuration list for PBXNativeTarget "DiccionarioiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E2E3961A6E64D400B851B6 /* Debug */,
+				E6E2E3971A6E64D400B851B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E2E3671A6E64D400B851B6 /* Project object */;
+}
